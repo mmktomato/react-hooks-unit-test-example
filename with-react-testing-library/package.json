@@ -1,0 +1,21 @@
+{
+  "name": "hooks-unit-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "mmktomato",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.7.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.7.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^7.0.0"
+  }
+}
