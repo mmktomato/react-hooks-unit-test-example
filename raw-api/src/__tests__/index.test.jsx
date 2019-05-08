@@ -7,11 +7,19 @@ let container;
 
 beforeEach(() => {
     container = document.createElement('div');
-    document.body.appendChild(container);
+
+    // If your custom hook touchs DOM (like, measuring width and height, or dispatching events, or someting),
+    // "container" must be attached to "document".
+    //
+    // document.body.appendChild(container);
 });
 
 afterEach(() => {
-    document.body.removeChild(container);
+    // If you attach "container" to "document" in "beforeEach",
+    // you should remove it from "document".
+    //
+    // document.body.removeChild(container);
+
     container = null;
 });
 
@@ -31,7 +39,7 @@ describe('TestCounter', () => {
             render(<TestCounter />, container);
 
             const button = container.querySelector('button');
-            button.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+            Simulate.click(button);
         });
 
         const div = container.querySelector('div');
