@@ -7,8 +7,4 @@ How to write unit tests of custom React Hooks.
 Here are two examples:
 
 * [only with React and ReactDOM's api](https://github.com/mmktomato/react-hooks-unit-test-example/tree/master/raw-api)
-* with react-testing-library (coming soon)
-
-## TODO
-
-* Example which uses `react-testing-library`.
+* [with react-testing-library](https://github.com/mmktomato/react-hooks-unit-test-example/tree/master/with-react-testing-library)
