@@ -8,3 +8,5 @@ Here are two examples:
 
 * [only with React and ReactDOM's api](https://github.com/mmktomato/react-hooks-unit-test-example/tree/master/raw-api)
 * [with react-testing-library](https://github.com/mmktomato/react-hooks-unit-test-example/tree/master/with-react-testing-library)
+
+[My blog post (Japanese)](https://moyapro.com/2019/05/12/react-custom-hooks-unit-test/)
