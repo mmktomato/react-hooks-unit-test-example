@@ -9,12 +9,12 @@
   "author": "mmktomato",
   "license": "MIT",
   "devDependencies": {
-    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-jest": "^24.7.1",
+    "babel-jest": "^24.9.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "jest": "^24.7.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "jest": "^24.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
