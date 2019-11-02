@@ -1,8 +1,6 @@
 import React from 'react';
-import { render, fireEvent, cleanup } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import { TestCounter, TestFormattedDate } from './TestComponent';
-
-afterEach(cleanup);
 
 describe('TestCounter', () => {
     it('should show an initial count.', () => {
